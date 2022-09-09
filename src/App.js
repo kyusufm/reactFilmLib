@@ -26,11 +26,11 @@ const App = () => {
     return (
         <div className="app">
             <h1> Film Library </h1>
-
-            <div className="search">
-                <p>
+            <p>
                     Input your keyword and press the search button.
                 </p>
+            <div className="search">
+                
                 <input 
                     placeholder="Search for movies"
                     value={searchTerm}
