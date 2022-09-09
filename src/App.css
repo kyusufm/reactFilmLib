@@ -40,6 +40,17 @@ h1 {
   width: fit-content;
 }
 
+.head {
+  -webkit-text-fill-color: transparent;
+  background: linear-gradient(90deg,#f9d3b4,hsla(27,85%,84%,0));
+  background-clip: text;
+  -webkit-background-clip: text;
+  letter-spacing: .9px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
 .search {
   width: 71%;
   margin: 4rem 0 2rem;

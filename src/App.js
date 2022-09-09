@@ -26,7 +26,7 @@ const App = () => {
     return (
         <div className="app">
             <h1> Film Library </h1>
-            <p>
+            <p className="head">
                     Input your keyword and press the search button.
                 </p>
             <div className="search">
