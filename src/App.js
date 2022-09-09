@@ -28,6 +28,9 @@ const App = () => {
             <h1> Film Library </h1>
 
             <div className="search">
+                <p>
+                    Input your keyword and press the search button.
+                </p>
                 <input 
                     placeholder="Search for movies"
                     value={searchTerm}
